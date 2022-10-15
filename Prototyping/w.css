@@ -1,0 +1,71 @@
+#wg{
+    display: flex;
+    
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10vh;
+    margin-top: 50px;
+    height: 80vh;
+}
+.navbar-brand{
+    color: red;
+}
+.nav-item:hover{
+    color: red; 
+}
+.carousel-inner{
+    height: 70vh;
+    width: 50vh;
+}   
+
+#ue{
+       margin: 10vh;
+    color: rgb(27, 27, 221);
+        text-align: center;
+       
+}
+#logo{
+    height: 10vh;
+}
+#nav{
+
+    font-size: 2.8vh;
+    font-weight: 700;
+
+
+}
+
+a{
+    border-radius: 2vh;
+}
+#navbarSupportedContent{
+    margin-left: 5vh;
+
+}
+#nav a:hover{
+    border-radius: 5vh;
+    background-color:gray;
+    font-size: 3vh;
+}
+#news{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin: 5vh;
+    justify-content: space-around;
+  
+
+}
+.list-group{
+    margin: 5vh;
+    
+    width: 75vh;
+}
+ul{
+    margin: 5vh;
+}
+.containercentered{
+    display: flex;
+    margin-left: 30vh;
+}
